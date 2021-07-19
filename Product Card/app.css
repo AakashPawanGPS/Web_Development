@@ -1,0 +1,146 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.product-tag{
+    background-color: rgb(220, 20, 60);
+    color: whitesmoke;
+    border-radius: 4px;
+    padding: 5px 10px;
+    transition: all 400ms;
+}
+
+.product-tag:hover{
+    background-color: whitesmoke;
+    color: #3c99dc;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.product-header{
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.product-header img{
+    max-height: 300px;
+}
+
+.product-title{
+    font-size: 25px;
+    line-height: 1;
+    color:  #03396c;
+}
+
+.product-details{
+    color: #6497b1;
+    line-height: 2;
+}
+
+.product-price{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #03396c;
+}
+
+.product-footer{
+    display: flex;
+    color: #03396c;
+    margin: 20px 0;
+}
+
+.btn{
+    padding: 10px 40px;
+    border: none;
+    font-family: inherit;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+.btn-primary{
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+.btn-secondary{
+    color: crimson;
+}
+
+.product-footer .btn:first-child{
+    margin-right: 15px;
+}
+
+.product-footer .btn:last-child{
+    margin-left: 15px;
+}
+
+.btn-primary:hover{
+    background-color: whitesmoke;
+    color: crimson;
+    border:2px solid crimson;
+}
+
+.btn-secondary:hover{
+    background-color: crimson;
+    color: whitesmoke;
+    border:2px solid whitesmoke;
+}
