@@ -1,0 +1,18 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+
+main .sidebar{
+    background-color: purple;
+    border: 2px solid white;
+    flex: 1 300px;
+}
+
+main .mainContent{
+    background-color: rebeccapurple;
+    flex: 1 600px;
+}

@@ -1,0 +1,25 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: crimson;
+}
+
+button{
+    background:none;
+    color: cyan;
+    border: 2px solid;
+    padding: 1em 2em;
+    transition: all 0.25s;
+    font: 1em sans-serif;
+}
+
+button:hover{
+    border-color: white;
+    color: white;
+    box-shadow: 0 0.5em 1.75em -0.1em gainsboro;
+    transform: translateY(-0.5px);
+    cursor: pointer;
+}

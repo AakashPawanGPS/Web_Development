@@ -1,0 +1,22 @@
+img{
+    width: 30%;
+    margin: calc(10%/6); /*1.666666% */
+}
+
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid gray;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+img:hover{
+    box-shadow: 1em 0.5em 1.75em -0.1em gray;
+    transform: translateY(-0.5px);
+    /* transition: width 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}

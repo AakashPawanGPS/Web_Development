@@ -1,0 +1,31 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    padding: 10px 10px 10px 10px;
+}
+
+h1{
+    text-align: center;
+    background-color: burlywood;
+    width: 240px;
+}
+
+.div1{
+    background-color: cadetblue;
+    border-width: 10px;
+    border-color: peru;
+    border-style:solid;
+
+}
+.div2{
+    background-color:chartreuse;
+    border-width: 10px;
+    border-color: red;
+    border-style: double;
+    border-left-color: royalblue;
+}
+.div3{
+    background-color: pink;
+    border: 10px dashed blue;
+}

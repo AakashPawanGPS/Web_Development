@@ -1,0 +1,106 @@
+/* h1{
+    text-align: center;
+    font-weight: 400;
+    text-decoration: cyan underline wavy;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+} */
+
+body{
+    background-color: cornsilk;
+    font-family: 'Nunito';
+}
+
+p,a{
+    border: blueviolet;
+    margin-left: 15px;
+}
+h3:hover{
+    color: orange;
+    background-color: orchid;
+}
+
+h3:active{
+    color: blue;
+}
+
+/* button{
+    color: cadetblue;
+    background-color: chartreuse;
+} */
+
+#signup{
+    color: crimson;
+    background-color: darkkhaki;
+}
+
+h1,h2{
+    color: coral;
+}
+
+span{
+    background-color: darkred;
+    color: white;
+}
+
+.tag{
+    background-color: blueviolet;
+    font-size: smaller;
+}
+
+p +button{
+    background-color: pink;
+    font-size: 20px;
+}
+
+input[type="password"]{
+    color: grey;
+}
+
+a[href*="google"]{
+    color: indianred;
+}
+
+#signup:hover{
+    color: purple;
+    background-color: red;
+
+}
+
+#signup:active{
+    background-color: royalblue;
+}
+
+button:active{
+    background-color: royalblue;
+}
+
+p:nth-of-type(2n){
+    background-color: saddlebrown;
+}
+
+h2::first-letter{
+    font-size: larger;
+    color: red;
+}
+
+p:line
+
+p::first-line{
+    color: rgb(247, 2, 2);;
+    font-size: xx-large;
+}
+
+p::selection{
+    color: royalblue;
+    background-color: black;
+}
+
+button:hover{
+    background-color: olive;
+}
