@@ -65,6 +65,7 @@ body{
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
 }
 
 .pricing-plan{
@@ -120,11 +121,12 @@ body{
     text-decoration: none;
     margin:25px 0;
     transition: background-color 200ms ease-in-out;
+    font-size: 15px;
 }
 
 .pricing-button:hover, .pricing-button:focus{
     background-color: #e1f1ff;
-
+    font-weight: bold;
 }
 
 .pricing-button.is-featured{
