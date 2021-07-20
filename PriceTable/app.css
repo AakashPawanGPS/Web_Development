@@ -120,13 +120,14 @@ body{
     padding: 15px 35px;
     text-decoration: none;
     margin:25px 0;
-    transition: background-color 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
     font-size: 15px;
 }
 
 .pricing-button:hover, .pricing-button:focus{
     background-color: #e1f1ff;
     font-weight: bold;
+    padding: 14px 33px;
 }
 
 .pricing-button.is-featured{
