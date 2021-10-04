@@ -8,10 +8,12 @@ for(var i=0; i<noOfDrums;i++){
 function handleClick() {
     var buttonClicked = this.innerHTML;
     makeSound(buttonClicked)
+    buttonAnimation(buttonClicked)
 }
 
 document.addEventListener('keypress',function(event) {
     makeSound(event.key)
+    buttonAnimation(event.key)
 })
 
 function makeSound(key){
@@ -57,4 +59,12 @@ function makeSound(key){
         
     }
 
+}
+
+function buttonAnimation(keyClicked){
+    var clicked = document.querySelector("."+keyClicked)
+    clicked.classList.add('pressed')
+    setTimeout(function(){
+        clicked.classList.remove('pressed')
+    },100)
 }
